@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>Search</title>   
+        <style>
+            #logo {
+                width: 400px;
+                height: 200px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 130px;
+            }
+            #search {
+                background-color: #ffff;
+                display: flex;
+                margin: auto;
+                border-radius: 24px;
+                border: 1px solid #dfe1e5;
+                padding: 0;
+                width: 584px;
+                height: 44px;
+                outline-color: black !important;
+
+            }
+            .topnav {
+                text-align: right;
+            }
+            .topnav .active {
+                color: black;
+            }
+            #buttons {
+                display: block;
+                margin: auto;
+                width: auto;
+                max-width: fit-content;
+                padding: 15px;
+            }
+            .search_buttons {
+                background-color: #f8f9fa;
+                border: 1px solid #f8f9fa;
+                font-family: roboto, arial;
+                font-size: 14px;
+                padding: 5px;
+                margin: 11px 4px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                text-align: center;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="images.html">Images</a>
+            <a class="active" href="advanced_search">Advanced</a>
+          </div>      
+        <img id="logo" src="google.jpg" alt="google logo">
+        <form action="https://www.google.com/search">
+            <input id="search" type="text" name="q">
+            <div id="buttons">
+                <input type="submit" class="search_buttons" name="btnK" value="Google Search">
+                <input type="submit" class="search_buttons" name="btnI" value="I'm Feeling Lucky">
+            </div>    
+        </form>
+    </body>
+</html>
