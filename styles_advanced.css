@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#image{
+    width: 150px;
+    height: 70px;
+    
+}
+#advanced_search{
+    margin-left: 10px;
+    color: #f28b82;
+    font-size: 20px;
+}
+#find{
+    font-size: 16px;
+}
+.textinput {
+    text-align: left;
+    width: 40%;
+    border-radius: 1px;
+    border: 1px solid;
+    font-size: 13px;
+    padding: 1px 8px;
+    height: 25px;
+    margin: 2px;
+}
+.label_format {
+    display: inline-block;
+    text-align: left;
+    width: 200px;
+    height: 42px;
+    line-height: 16px;
+    font-size: 13px;
+}
+#button{
+    
+    margin: 10px;
+    padding: 12px;
+    background-color: #4d90fe;
+    color: #fff;
+    border: 1px solid #195ecc;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.right-align{
+width: 50%;
+}

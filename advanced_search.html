@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial=scale=1">
+        <link rel="stylesheet" href="styles_advanced.css">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <span class="topnav">
+            <a class="active" href="index.html">Search</a>
+        </div>
+        <div>
+            <a class="active" href="index.html">
+            <input type="image" id="image" src="google.jpg" alt="Google"a class="active" href="index.html"><br><br>
+            </a>
+        </div>
+        <label id="advanced_search">Advanced Search</label><br>
+        <hr>
+        <label id="find">Find pages with...</label><br><br>
+    <form action="https://google.com/search" method="get">
+        <div class="form">
+            <div class="label_format">
+                <label for="field1">all these words:</label>
+            </div>
+            <input class="textinput" type="text" id="field1" name="as_q">
+            <div class="label_format">
+                <label for="field1">Type the important words: <span>tricolor rat terrier</span> </label>
+            </div>
+            <br>
+            <div class="label_format">
+                <label for="field2">this exact word or phrase:</label>
+            </div>
+            <input class="textinput" type="text" id="field2" name="as_epq">Put exact words in quotes:  "rat terrier"<br>
+            <div class="label_format">
+                <label for="field3">any of these words:</label>
+            </div>
+            <input class="textinput" type="text" id="field3" name="as_oq">Type OR between all the words you want:  miniature OR standard<br>
+            <div class="label_format">
+                <label for="filed4">none of these words:</label>
+            </div>
+            <input class="textinput" type="text" id="field4" name="as_eq">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"<br>
+           <div class="label_format">
+                <label></label>
+                <div style="text-align: right;">
+                <input id="button" type="submit" value="Advanced Search">
+                </div>
+            </div>                          
+        </div>    
+    </form> 
+    </body>
+</html>
